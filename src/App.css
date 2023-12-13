@@ -2,4 +2,32 @@
   border: 2px solid black;
   height: 100px;
   width: 100px;
+  
 }
+.game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 5px;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+
+h1 {
+  text-align: center;
+}
+
+/* .square {
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+  font-size: 10rem;
+  text-align: center;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px; 
+  margin: 0 auto;
+} */ 
